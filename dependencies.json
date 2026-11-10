@@ -1,0 +1,17 @@
+{
+  "arduinoCli": {
+    "version": "1.5.1",
+    "url": "https://github.com/arduino/arduino-cli/releases/download/v1.5.1/arduino-cli_1.5.1_Windows_64bit.zip",
+    "sha256": "fabe42e0eb04d00e776a66178299ff95a46c623dbc260f997e58fd514853dd40"
+  },
+  "picoCore": "6.3.2",
+  "arduinoLibraries": [
+    { "name": "Adafruit BusIO", "version": "1.17.4" },
+    { "name": "Adafruit GFX Library", "version": "1.13.0" },
+    { "name": "Adafruit SSD1306", "version": "2.5.17" }
+  ],
+  "libraries": [
+    { "name": "BRAIDS", "repository": "poetaster/BRAIDS", "commit": "298a4de33be274911649f4eb151d3596cfe428c8" },
+    { "name": "STMLIB", "repository": "poetaster/STMLIB", "commit": "c6710ca78524afcef79b1a5a98b85611b0d7c2b4" }
+  ]
+}
